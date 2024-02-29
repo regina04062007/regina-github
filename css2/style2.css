@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(10, 10, 10);
+    font-family:'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 254, 254);
+}
+.col1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:blueviolet;
+}
+.gradient{
+    background: white;
+    background-clip: padding-love;
+
+}
+.gradient{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: 10px;
+    border-radius: inherit;
+    background: linear-gradient(to right, #43c6ac, #191654);
+  
+
+}
