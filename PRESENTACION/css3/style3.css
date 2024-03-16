@@ -224,7 +224,7 @@ nav h2{
     line-height: 500px;
 }
 aside{
-    width: 490px;
+    width: 480px;
     height: 900px;
     margin-top: 10px;
     background-color: #6f7ad891;
@@ -236,9 +236,8 @@ aside h2{
     line-height: 500px;
 }
 table{
-  background-color: rgba(0, 0, 0, 0.486);
- 
- 
+  background-color: rgba(0, 0, 0, 0.486); 
+  
 }
 footer{
     background-color: rgba(26, 28, 133, 0.623);

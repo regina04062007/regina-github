@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(../descarga.jfif);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center ;
+}
+.userlogin{
+    background-color: rgba(240, 248, 255, 0.575);
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15 px solid rgb(120, 107, 228);
+    margin-top: 10%;
+
+}
+.title{
+    font-size: 28px; 
+    font-style:italic;
+    color: blueviolet;
+}
+.passwordlogin{
+    background-color: rgba(240, 248, 255, 0.438);
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15 px solid rgb(120, 107, 228);
+    margin-top: 10%;
+}
+.title2{
+    font-size: 28px; 
+    font-style:italic;
+    color: blueviolet;
+}
+.userid{
+    margin-left: 50px;
+    padding-left:5px ;
+    float:left;
+    
+    height: 35px;
+    width: 300px;
+    border: solid 2px rgb(123, 123, 209);
+    border-radius: 10px;
+
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons button{
+    border-radius: 15px;
+    width: 130px;
+    height: 35px;
+}
+.buttons img{
+    width: 15px;
+    height: 15px;    
+}
+
+.olvidar{
+
+}
+
+
