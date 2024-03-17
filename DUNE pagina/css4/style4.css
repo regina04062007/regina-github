@@ -5,13 +5,22 @@ header{
     width: 100%;
     height: 70px;
     align-items: center;
+    margin-bottom: 10px;
     
 }
+.ima2 {
+    margin-left: 500px;
+    align-self: left;
+    width: 500px;
+    border-color: #00000000;
+    align-self: right;
+   
+} 
 nav{
     display: flex;
     align-items: center;
     border-radius: 15px;
-    border-top: 10px;
+    border-top: 50px;
     background-color: #F4D368;
     display: flex;
     width: 100%;
@@ -31,6 +40,7 @@ body{
    
 }
 ul{
+
 margin-top: 10px;
 padding-left: 0.5rem;
 width: 100%;
@@ -41,16 +51,17 @@ border-radius: 0.5rem;
 
 }
 aside{
-    border-radius:15px ;
-    align-self: center;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+    border-radius:15px ;
     margin-top: 10px;
     background-color: #480000;
+    height: 1300px;
     width: 100%;
-    height: 600px;
     margin-top: 10px;
+   
 
 }
 
@@ -60,7 +71,7 @@ aside{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 10px;
+    margin-left: 350px;
 }
 .buttons button{
     background-color: #DD6363;
@@ -69,24 +80,40 @@ aside{
     width: 130px;
     height: 35px;
 }
-.ima1 img{
-    display: flex;
-    justify-content: center;
-    
-    
-  }
-  .ima1 img{
-      display: flex;
-      justify-content: center;
-      width: 400px;
-    height: 200px; 
-   
-  }
-  .ima1{
-    align-items: center; 
-  }
+
+ 
   .contacto2 i{
     font-size: 28px;
     margin: 0 18px;
     align-self: center;
   }
+  h1{
+    font-size: 45px;
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+    text-align: center;
+ }
+div.galeria{
+    margin: 20px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 black;
+    float: left;
+    width: 300px;
+    height: 500px;
+ }
+div.galeria img{
+    width: 100%;
+    height: 300px;
+ }
+div.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+ }
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+ }
+ p{
+    font-size: large;
+    text-align: center;
+ }

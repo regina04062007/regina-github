@@ -1,3 +1,8 @@
+.anaheim-regular {
+  font-family: "Anaheim", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 *{
     margin: 10;
     padding: 10;
@@ -7,26 +12,48 @@
 }
 
 header{
-    background-color: rgba(13, 52, 102, 0.63);
+    background-color: rgb(13, 52, 102);
     display: flex;
     width: 100%;
-    height: 70px;
+    height: 100px;
     align-items: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
     
+}
+.ima2 {
+  margin-left: 500px;
+  align-self: left;
+  width: 300px;
+  height: 70px;
+  border-color: #00000000;
+  align-self: right;
+ 
+}  
+nav{
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  border-top: 50px;
+  background-color: #000000;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+
 }
 .contacto2 i{
     font-size: 28px;
     margin: 0 18px;
     align-self: center;
+    text-align: justify;
+    
   }
-  ul{
-    margin-top: 10px;
-    padding-left: 0.5rem;
-    width: 100%;
-    display: flex;justify-content: space-between;
-    align-items: center;
-    border-radius: 0.5rem;
+  p{
+    text-align: justify;
+    margin-right: 15px;
   }
+ 
 
 
 section{
@@ -66,7 +93,7 @@ section{
   }
   .presentacion{
       height: 360px;
-      width: 640px;
+      width: 680px;
       position: relative;
      
   }
@@ -162,13 +189,14 @@ section{
       margin-block: 8px;
     }
     .presentacion .back .imagen p{
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 500;
     }
     .presentacion .back .info{
         font-family: Georgia, 'Times New Roman', Times, serif;
       align-items: flex-start;
       color: #ffffff;
+      text-align: justify;
     }
     .presentacion .back .info .contacto i{
       line-height: 32px;
@@ -205,6 +233,7 @@ section{
         justify-content: center;
     }
     .ima1 img{
+      border-radius: 15px;
         display: flex;
         justify-content: center;
         width: 300px;
@@ -215,10 +244,6 @@ section{
         text-align: center;
     }
   
- 
-  
-  
-
   nav{
     background-color: rgba(0, 0, 0, 0.486);
     height: 60px;
@@ -243,10 +268,12 @@ nav h2{
 }
 aside{
     width: 480px;
-    height: 900px;
+    height: 1100px;
     margin-top: 10px;
     background-color: #6f7ad891;
     float: left;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 aside h2{
     font-size: 40px;
@@ -262,6 +289,9 @@ footer{
     position: sticky;
     clear: both;
     margin-top: 10px;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
 
 }
 .fecha{
@@ -273,26 +303,52 @@ footer{
     flex-direction: column;
     overflow: hidden;
   }
-  .contacto2 i{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 28px;
-    margin: 0 18px;
-    align-self: center;
-  }
+
   .all{
     font-size: 32px;
     font-weight: 600;
     margin-top: 19px;
+    margin-left: 40px;
   }
   .buttons{
-    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 10px;
+    margin-left: 350px;
 }
 .buttons button{
     border-radius: 15px;
     width: 130px;
     height: 35px;
+}
+p{
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: large;
+}
+.todo{
+  width: 100%;
+ }
+ h2{
+  font-size: 45px;
+  color: white;
+  text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+  text-align: center;
+}
+.ima4 {
+  margin-left: 450px;
+  align-self: center;
+  width: 370px;
+  height: 150px;
+  border-color: #00000000;
+  align-self: right;
+ 
+}  
+.letra1{
+  font-size: 35px; 
+    font-style:italic;
+    color: rgb(255, 255, 255);
+    align-self: center;
+   
 }
